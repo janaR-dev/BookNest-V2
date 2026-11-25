@@ -3,7 +3,7 @@ const paper = (price, stock) => ({ format: 'paperback', price, stock })
 const hard = (price, stock) => ({ format: 'hardcover', price, stock })
 const digital = (price) => ({ format: 'ebook', price, stock: 0 })
 
-const seedBooks = [
+const books  = [
   {
     id: 1,
     slug: 'salt-harvest',

@@ -1,0 +1,93 @@
+
+
+.about-us {
+    height: 680px;
+    background-image: url('../assets/aboutus-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    color: white;
+}
+
+.about-overlay {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.85) 0%,
+        rgba(0, 0, 0, 0.65) 40%,
+        rgba(0, 0, 0, 0.1) 100%
+    );
+    display: flex;
+    align-items: center;
+}
+
+.about-content {
+    max-width: 520px;
+    padding: 30px 0;
+}
+
+.about-subtitle {
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #e5c58b;
+}
+
+.about-content h1 {
+    font-size: clamp(36px, 5vw, 55px);
+    font-weight: 700;
+    line-height: 1.15;
+    margin: 18px 0;
+}
+
+.about-content p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #eeeeee;
+    margin-bottom: 25px;
+}
+
+.about-content .btn {
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+@media (max-width: 576px) {
+    .about-us {
+        height: 420px;
+        background-position: 60% center;
+    }
+
+    .about-overlay {
+        background: rgba(0, 0, 0, 0.65);
+    }
+
+    .about-content {
+        max-width: 100%;
+    }
+}
+
+
+.about-us h2,
+.popular h2 {
+    color: #252525;
+}
+
+.popular .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.popular .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12) !important;
+}
+
+.popular .card-img-top {
+    background-color: #fff;
+}
+
+.navbar-brand {
+    letter-spacing: 0.5px;
+}

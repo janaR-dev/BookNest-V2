@@ -6,17 +6,17 @@
     <title>BookNest</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 <body>
     
-<!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
         <a class="navbar-brand fw-bold" href="index.html">
-            <i class="fa-solid fa-book-open me-2"></i>Book Haven
+            <i class="fa-solid fa-book-open me-2"></i>BookNest
         </a>
 
         <button class="navbar-toggler" type="button"
@@ -75,25 +75,38 @@
 
 
 
-<section class="about-us py-5">
-    <div class="container text-center">
-        <h2 class="fw-bold mb-3">Welcome to Book Haven</h2>
 
-        <p class="text-muted mx-auto" style="max-width: 700px;">
-            Discover your next favorite read with our collection of books
-            across different genres. Whether you enjoy fiction, mystery,
-            history, or science fiction, there's always a new story waiting
-            for you.
-        </p>
+<section class="about-us">
+    <div class="about-overlay">
+        <div class="container">
+            <div class="about-content">
 
-        <a href="explore.html" class="btn btn-dark mt-3">
-            Explore Books <i class="fa-solid fa-arrow-right ms-2"></i>
-        </a>
+                <span class="about-subtitle">WELCOME TO BOOK HAVEN</span>
+
+                <h1>
+                    Every Book Opens<br>
+                    a New World.
+                </h1>
+
+                <p>
+                    Discover stories worth getting lost in.
+                    From timeless fiction to fascinating ideas,
+                    find your next favorite book in our collection.
+                </p>
+
+                <a href="explore.html" class="btn btn-light px-4 py-2">
+                    Explore Our Collection
+                    <i class="fa-solid fa-arrow-right ms-2"></i>
+                </a>
+
+            </div>
+        </div>
     </div>
 </section>
 
 
-<!-- POPULAR BOOKS -->
+
+
 <section class="popular py-5 bg-light">
     <div class="container">
 
@@ -115,9 +128,11 @@
     </div>
 </section>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js"></script>
 
+<script src="mock-data/books.js"></script>
+<script src="mock-data/categories.js"></script>
 <script src="scripts/index.js"></script>
-<script src="https://jsdelivr.net"></script>
 
 </body>
 </html>
