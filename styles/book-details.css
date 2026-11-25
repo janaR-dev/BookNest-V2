@@ -1,0 +1,43 @@
+
+body {
+    background-color: #faf9f6;
+}
+
+.book-image-container {
+    background: #f0eee9;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.book-image-container img {
+    height: 430px;
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.rating-summary {
+    background: #f0eee9;
+}
+
+.format-option {
+    min-width: 135px;
+}
+
+.format-option.active {
+    background-color: #292521;
+    color: white;
+    border-color: #292521;
+}
+
+.review-card {
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .book-image-container img {
+        height: 320px;
+    }
+}

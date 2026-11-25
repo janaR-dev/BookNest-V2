@@ -68,6 +68,7 @@ function displayBooks(books) {
                            class="btn btn-dark w-100">
                             View Details
                         </a>
+                        
                     </div>
                 </div>
             </div>

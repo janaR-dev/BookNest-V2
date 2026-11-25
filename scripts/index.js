@@ -48,10 +48,10 @@ popularContainer.innerHTML = popularBooks.map(book => {
                             $${paperback ? paperback.price.toFixed(2) : 'N/A'}
                         </div>
 
-                        <a href="book-details.html?slug=${book.slug}"
-                           class="btn btn-dark w-100">
-                            View Details
-                        </a>
+                        <a href="book-details.html?slug=${encodeURIComponent(book.slug)}"
+   class="btn btn-outline-dark">
+    View Details
+</a>
 
                     </div>
 

@@ -3,9 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In - BookNest</title>
+    <title>My Account | BookNest</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.2.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/auth.css">
 </head>
+
 <body>
-    
+
+<div class="auth-page">
+
+    <div class="auth-card">
+
+        <div class="auth-form">
+
+            <a href="index.html" class="brand">
+                <i class="fa-solid fa-book-open"></i> BookNest
+            </a>
+
+            <div id="signupSection">
+
+                <h2>Create Your Account</h2>
+                <p class="text-muted mb-4">
+                    Join BookNest and discover your next favorite book.
+                </p>
+
+                <form id="signupForm">
+
+                    <div class="mb-3">
+                        <label for="fullName" class="form-label">Full Name</label>
+                        <input type="text" id="fullName" class="form-control"
+                               placeholder="Enter your full name" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" id="email" class="form-control"
+                               placeholder="example@email.com" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" id="password" class="form-control"
+                               placeholder="Create a password" minlength="6" required>
+                    </div>
+
+                    <div id="signupMessage" class="mb-3"></div>
+
+                    <button type="submit" class="btn btn-dark w-100">
+                        Create Account
+                    </button>
+
+                </form>
+
+            </div>
+
+            <div id="accountSection" class="d-none">
+
+                <div class="profile-icon">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+
+                <span class="account-label">YOUR ACCOUNT</span>
+
+                <h2 id="accountName"></h2>
+
+                <p class="text-muted">
+                    Welcome to your BookNest account!
+                </p>
+
+                <div class="account-details">
+
+                    <div class="account-detail">
+                        <i class="fa-solid fa-user"></i>
+                        <div>
+                            <small>Full Name</small>
+                            <p id="profileName"></p>
+                        </div>
+                    </div>
+
+                    <div class="account-detail">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <small>Email Address</small>
+                            <p id="profileEmail"></p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <a href="explore.html" class="btn btn-dark w-100 mb-3">
+                    Explore Books
+                </a>
+
+                <button id="logoutBtn" class="btn btn-outline-danger w-100">
+                    <i class="fa-solid fa-right-from-bracket me-2"></i>
+                    Log Out
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="auth-image">
+            <div class="image-overlay">
+                <span>BookNest</span>
+                <h2>Every reader has a story.</h2>
+                <p>
+                    Find inspiration, discover new worlds,
+                    and make every page count.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<footer class="bg-dark text-white text-center py-4">
+    <p class="mb-0">© 2026 BookNest. All rights reserved.</p>
+</footer>
+<script src="scripts/signup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js"></script>
+
+
 </body>
 </html>

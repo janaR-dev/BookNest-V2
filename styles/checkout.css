@@ -1,0 +1,25 @@
+
+body {
+    background-color: #faf9f6;
+}
+
+.checkout-card {
+    background: white;
+    border: 1px solid #e8e5df;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.04);
+}
+
+.form-control {
+    padding: 11px;
+}
+
+.form-control:focus {
+    border-color: #b69a6b;
+    box-shadow: 0 0 0 0.2rem rgba(182, 154, 107, 0.15);
+}
+
+#checkoutItems {
+    max-height: 300px;
+    overflow-y: auto;
+}

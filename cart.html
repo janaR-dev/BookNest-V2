@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Cart | BookNest</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.2.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles/cart.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="fa-solid fa-book-open me-2"></i>
+                BookNest
+            </a>
+
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarContent">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+
+                <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="explore.html">Explore</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="account.html">My Account</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="cart.html">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            Cart
+                            <span id="cartCount" class="badge bg-dark">0</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+
+    <main class="container cart-container">
+
+        <div class="cart-heading">
+            <h2>Shopping Cart</h2>
+            <p>Review your selected books before checkout.</p>
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-lg-8">
+
+                <div id="emptyCart" class="alert alert-warning d-none" role="alert">
+
+                    <i class="fa-solid fa-circle-exclamation me-2"></i>
+
+                    Your cart is currently empty.
+                    <a href="explore.html" class="alert-link">
+                        Explore our collection
+                    </a>
+                    and find your next favorite book!
+
+                </div>
+
+                <div id="cartItems"></div>
+
+            </div>
+
+
+            <div class="col-lg-4">
+
+                <div class="cart-summary">
+
+                    <h5>Order Summary</h5>
+
+                    <div class="summary-row">
+                        <span>Subtotal</span>
+                        <strong id="subtotal">0.00</strong>
+                    </div>
+
+                    <div class="summary-row">
+                        <span>Shipping</span>
+                        <strong id="shipping">0.00</strong>
+                    </div>
+
+                    <hr>
+
+                    <div class="summary-row total-row">
+                        <span>Total</span>
+                        <strong id="total">0.00</strong>
+                    </div>
+
+                    <button id="checkoutBtn" class="btn btn-dark w-100 mt-4">
+                        Proceed to Checkout
+                        <i class="fa-solid fa-arrow-right ms-2"></i>
+                    </button>
+
+                    <a href="explore.html" class="continue-shopping">
+                        Continue Shopping
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+<footer class="bg-dark text-white text-center py-4">
+    <p class="mb-0">© 2026 BookNest. All rights reserved.</p>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+   <script src="mock-data/books.js"></script>
+<script src="mock-data/categories.js"></script>
+<script src="scripts/cart.js"></script>
+</body>
+</html>
