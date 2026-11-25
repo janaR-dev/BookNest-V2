@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" width="400" height="600" role="img" aria-label="Quiet Systems by Frances Lin">
+  <title>Quiet Systems — Frances Lin</title>
+  <defs>
+    <linearGradient id="spine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000" stop-opacity="0.28"/>
+      <stop offset="0.55" stop-color="#000" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="1" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="#dcd2c1"/>
+  <g fill="none" stroke="#25302b" stroke-width="2.4" opacity="0.2" transform="scale(2)"><line x1="4" y1="0" x2="4" y2="300"/><line x1="32" y1="0" x2="32" y2="300"/><line x1="60" y1="0" x2="60" y2="300"/><line x1="88" y1="0" x2="88" y2="300"/><line x1="116" y1="0" x2="116" y2="300"/><line x1="144" y1="0" x2="144" y2="300"/><line x1="172" y1="0" x2="172" y2="300"/><line x1="200" y1="0" x2="200" y2="300"/><line x1="0" y1="4" x2="200" y2="4"/><line x1="0" y1="32" x2="200" y2="32"/><line x1="0" y1="60" x2="200" y2="60"/><line x1="0" y1="88" x2="200" y2="88"/><line x1="0" y1="116" x2="200" y2="116"/><line x1="0" y1="144" x2="200" y2="144"/><line x1="0" y1="172" x2="200" y2="172"/><line x1="0" y1="200" x2="200" y2="200"/><line x1="0" y1="228" x2="200" y2="228"/><line x1="0" y1="256" x2="200" y2="256"/><line x1="0" y1="284" x2="200" y2="284"/></g>
+  <rect width="28" height="600" fill="url(#spine)"/>
+  <rect x="390" width="10" height="600" fill="url(#edge)"/>
+  <text x="42" y="58" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="3" fill="#25302b" opacity="0.55">BOOKNEST</text>
+  <text x="42" y="500" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#25302b">Quiet Systems</text>
+  <rect x="42" y="521" width="52" height="1.5" fill="#25302b" opacity="0.4"/>
+  <text x="42" y="556" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="2.2" fill="#25302b" opacity="0.8">FRANCES LIN</text>
+</svg>

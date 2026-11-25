@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" width="400" height="600" role="img" aria-label="The Long Middle by Daniel Osei">
+  <title>The Long Middle — Daniel Osei</title>
+  <defs>
+    <linearGradient id="spine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000" stop-opacity="0.28"/>
+      <stop offset="0.55" stop-color="#000" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="1" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="#232323"/>
+  <g fill="none" stroke="#e8ddc9" stroke-width="2.4" opacity="0.2" transform="scale(2)"><line x1="0" y1="18" x2="200" y2="18" opacity="0.5"/><line x1="0" y1="42" x2="200" y2="42" opacity="1"/><line x1="0" y1="66" x2="200" y2="66" opacity="1"/><line x1="0" y1="90" x2="200" y2="90" opacity="0.5"/><line x1="0" y1="114" x2="200" y2="114" opacity="1"/><line x1="0" y1="138" x2="200" y2="138" opacity="1"/><line x1="0" y1="162" x2="200" y2="162" opacity="0.5"/><line x1="0" y1="186" x2="200" y2="186" opacity="1"/><line x1="0" y1="210" x2="200" y2="210" opacity="1"/><line x1="0" y1="234" x2="200" y2="234" opacity="0.5"/><line x1="0" y1="258" x2="200" y2="258" opacity="1"/><line x1="0" y1="282" x2="200" y2="282" opacity="1"/></g>
+  <rect width="28" height="600" fill="url(#spine)"/>
+  <rect x="390" width="10" height="600" fill="url(#edge)"/>
+  <text x="42" y="58" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="3" fill="#e8ddc9" opacity="0.55">BOOKNEST</text>
+  <text x="42" y="500" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#e8ddc9">The Long Middle</text>
+  <rect x="42" y="521" width="52" height="1.5" fill="#e8ddc9" opacity="0.4"/>
+  <text x="42" y="556" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="2.2" fill="#e8ddc9" opacity="0.8">DANIEL OSEI</text>
+</svg>

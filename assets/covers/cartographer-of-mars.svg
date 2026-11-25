@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" width="400" height="600" role="img" aria-label="The Cartographer of Mars by Ada Nwosu">
+  <title>The Cartographer of Mars — Ada Nwosu</title>
+  <defs>
+    <linearGradient id="spine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000" stop-opacity="0.28"/>
+      <stop offset="0.55" stop-color="#000" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="1" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="#7a3b2e"/>
+  <g fill="none" stroke="#f3e3cf" stroke-width="2.4" opacity="0.2" transform="scale(2)"><circle cx="100" cy="150" r="28"/><circle cx="100" cy="150" r="54"/><circle cx="100" cy="150" r="80"/><circle cx="100" cy="150" r="106"/><ellipse cx="100" cy="150" rx="118" ry="38" transform="rotate(-24 100 150)"/><circle cx="100" cy="150" r="6" fill="currentColor" stroke="none"/></g>
+  <rect width="28" height="600" fill="url(#spine)"/>
+  <rect x="390" width="10" height="600" fill="url(#edge)"/>
+  <text x="42" y="58" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="3" fill="#f3e3cf" opacity="0.55">BOOKNEST</text>
+  <text x="42" y="460" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#f3e3cf">The Cartographer of</text>
+  <text x="42" y="500" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#f3e3cf">Mars</text>
+  <rect x="42" y="521" width="52" height="1.5" fill="#f3e3cf" opacity="0.4"/>
+  <text x="42" y="556" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="2.2" fill="#f3e3cf" opacity="0.8">ADA NWOSU</text>
+</svg>

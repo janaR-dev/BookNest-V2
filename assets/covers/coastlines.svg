@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" width="400" height="600" role="img" aria-label="Coastlines by Amara Bello">
+  <title>Coastlines — Amara Bello</title>
+  <defs>
+    <linearGradient id="spine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000" stop-opacity="0.28"/>
+      <stop offset="0.55" stop-color="#000" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="1" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="#2f5d5a"/>
+  <g fill="none" stroke="#eae4d4" stroke-width="2.4" opacity="0.2" transform="scale(2)"><path d="M-10 34 C 40 14, 70 54, 110 34 S 180 18, 215 38"/><path d="M-10 66 C 40 46, 70 86, 110 66 S 180 50, 215 70"/><path d="M-10 98 C 40 78, 70 118, 110 98 S 180 82, 215 102"/><path d="M-10 130 C 40 110, 70 150, 110 130 S 180 114, 215 134"/><path d="M-10 162 C 40 142, 70 182, 110 162 S 180 146, 215 166"/><path d="M-10 194 C 40 174, 70 214, 110 194 S 180 178, 215 198"/><path d="M-10 226 C 40 206, 70 246, 110 226 S 180 210, 215 230"/><path d="M-10 258 C 40 238, 70 278, 110 258 S 180 242, 215 262"/><path d="M-10 290 C 40 270, 70 310, 110 290 S 180 274, 215 294"/></g>
+  <rect width="28" height="600" fill="url(#spine)"/>
+  <rect x="390" width="10" height="600" fill="url(#edge)"/>
+  <text x="42" y="58" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="3" fill="#eae4d4" opacity="0.55">BOOKNEST</text>
+  <text x="42" y="500" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#eae4d4">Coastlines</text>
+  <rect x="42" y="521" width="52" height="1.5" fill="#eae4d4" opacity="0.4"/>
+  <text x="42" y="556" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="2.2" fill="#eae4d4" opacity="0.8">AMARA BELLO</text>
+</svg>
